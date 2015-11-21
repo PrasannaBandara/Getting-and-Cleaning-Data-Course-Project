@@ -13,8 +13,6 @@ Activity <- rbind(testy,trainy)
 Subject <- rbind(testsub,trainsub)
 table2 <- cbind(Activity,Subject)
 
-
-
 table2$V1[table2$V1 == 1] <- "WALKING"
 table2$V1[table2$V1 == 2] <- "WALKING_UPSTAIRS"
 table2$V1[table2$V1 == 3] <- "WALKING_DOWNSTAIRS"
