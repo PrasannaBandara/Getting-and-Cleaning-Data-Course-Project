@@ -1,0 +1,19 @@
+
+testx = Measuments for test
+testy = Activities for each measurement in test
+testsub = Subject for each measurement in test
+
+trainx = Measuments for train
+trainy = Activities for each measurement in train
+trainsub = Subject for each measurement in train
+
+table1 = combind table for test and train measuments
+Activity = combind table for test and train activities
+Subject = combind table for test and train subjects
+table2 = combind table for Activity and Subject
+
+rowmean = row means for table1
+rowstd = row means for standard deviation
+output1 = table for row means and standard deviation
+
+Tidy = table which has row means and standard deviation and their corresponding Activity and Subject
